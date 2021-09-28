@@ -9,6 +9,5 @@ public class CreditPaymentService {
         double totalMonthlyPayment = (int) monthlyAnnuityPayment;
 
         return (int) totalMonthlyPayment;
-
     }
 }

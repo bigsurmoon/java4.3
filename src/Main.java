@@ -12,8 +12,5 @@ public class Main {
 
         int threeYearMonthlyPayment = service.calculate(1_000_000, 3);
         System.out.println("Ежемесячная процентная ставка за 3 года: " + threeYearMonthlyPayment);
-
-
     }
-
 }

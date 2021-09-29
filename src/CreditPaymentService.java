@@ -7,7 +7,6 @@ public class CreditPaymentService {
         double annuityRate = (monthlyPercentRate * Math.pow((1 + monthlyPercentRate), creditTerm)) / (Math.pow((1 + monthlyPercentRate), creditTerm) - 1);
         double monthlyAnnuityPayment = annuityRate * creditSummary;
         double totalMonthlyPayment = (int) monthlyAnnuityPayment;
-
         return (int) totalMonthlyPayment;
     }
 }

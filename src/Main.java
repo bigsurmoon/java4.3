@@ -3,7 +3,6 @@ public class Main {
 
         CreditPaymentService service = new CreditPaymentService();
 
-
         int oneYearMonthlyPayment = service.calculate(1_000_000, 1);
         System.out.println("Ежемесячная процентная ставка за 1 год: " + oneYearMonthlyPayment);
 
